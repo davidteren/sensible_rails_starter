@@ -12,6 +12,5 @@ test:
   <<: *default
 
 production:
-  app_name:
-  app_description:
-  app_host:
+  <<: *default
+  

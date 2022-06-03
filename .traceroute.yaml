@@ -1,4 +1,5 @@
 ignore_unreachable_actions:
+- action_mailbox/ingresses/mandrill/inbound_emails#health_check
 - active_storage/representations/proxy#send_stream
 - active_storage/blobs/proxy#send_stream
 - devise#_prefixes
@@ -33,6 +34,7 @@ ignore_unused_routes:
 - devise/unlocks#new
 - devise/unlocks#show
 - devise/unlocks#create
+- health_check
 
 ignore_uninitialized_constant:
 - TestProf

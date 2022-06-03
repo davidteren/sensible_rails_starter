@@ -15,4 +15,6 @@ Rails.application.routes.draw do
   get "app_tools", to: "app_tools/mains#index"
   get "tools", to: "app_tools/mains#index"
   get "styles", to: "app_tools/styles#index"
+
+  get "/health_check", to: ->(_) { [200, {}, ["timestamp:#{Time.now.to_i}"]] }
 end

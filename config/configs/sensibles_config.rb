@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class AppSettingsConfig < ApplicationConfig
+class SensiblesConfig < ApplicationConfig
   attr_config :app_name, :app_description, :app_host, :app_port, :demo_instance
 
   required :app_name, :app_description, :app_host

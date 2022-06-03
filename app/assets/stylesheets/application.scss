@@ -9,3 +9,18 @@
 @import "simplecss/simpletails_color_select.css";
 
 @import "simplecss/simpletails.css";
+
+.field {
+  margin-bottom: 1rem;
+
+  input {
+    &[type="text"],
+    &[type="search"],
+    &[type="tel"],
+    &[type="url"],
+    &[type="email"],
+    &[type="password"]{
+      width: 100%;
+    }
+  }
+}
