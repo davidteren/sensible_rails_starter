@@ -5,8 +5,8 @@
 # Make server listening on all hosts
 Capybara.server_host = "0.0.0.0"
 # Use a hostname accessible from the outside world
-Capybara.app_host = "http://#{ENV.fetch("APP_HOST", `hostname`.strip&.downcase || "0.0.0.0")}"
-
+Capybara.app_host = "http://#{ENV.fetch("APP_HOST", "127.0.0.1" || "0.0.0.0")}"
+Capybara.always_include_port = true
 # Which domain to use when setting cookies directly in tests.
 CAPYBARA_COOKIE_DOMAIN = URI.parse(Capybara.app_host).host.then do |host|
   # If host is a top-level domain
