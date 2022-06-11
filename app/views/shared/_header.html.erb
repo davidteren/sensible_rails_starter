@@ -1,15 +1,15 @@
 <header>
-	<%= render Sensibles::Header::AppTitleComponent.new %>
-	<nav>
-		<%# Page.all.each do |page|  %>
-		<%# next unless page.visible %>
-		<%#= link_to page.title, page_path(page) %>
-		<%# end %>
-		<%= link_to 'Tools', tools_path %>
-		<% if user_signed_in? %>
-			<%= button_to 'Log out', destroy_user_session_path, method: :delete %>
-		<% else %>
-			<%= link_to 'Log in', new_user_session_path %>
-		<% end %>
-	</nav>
+  <%= render Sensibles::Header::AppTitleComponent.new %>
+  <nav>
+    <%# Page.all.each do |page|  %>
+    <%# next unless page.visible %>
+    <%#= link_to page.title, page_path(page) %>
+    <%# end %>
+    <%= link_to 'Tools', tools_path %>
+    <% if user_signed_in? %>
+      <%= button_to 'Log out', destroy_user_session_path, method: :delete %>
+    <% else %>
+      <%= link_to 'Log in', new_user_session_path %>
+    <% end %>
+  </nav>
 </header>

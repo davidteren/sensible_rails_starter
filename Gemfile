@@ -162,4 +162,5 @@ group :development do
   gem "traceroute"
   # a code metric tool for rails codes. (http://rails-bestpractices.com)
   gem "rails_best_practices"
+  gem 'erb_lint', require: false
 end
