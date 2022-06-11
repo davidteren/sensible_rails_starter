@@ -37,6 +37,10 @@ PreCommit:
   enabled: true
   command: ['standardrb', '--fix']
 
+ ErbLint:
+  enabled: true
+  command: ['bundle','exec', 'erblint', '**/*.{html,text,js}{+*,}.erb', '-a']
+
   StandardJS:
    enabled: true
    command: [ 'standard', '--fix' ]
@@ -64,3 +68,4 @@ PreCommit:
  RailsBestPractices:
   enabled: true
   command: ['rails_best_practices', '.']
+

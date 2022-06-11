@@ -162,5 +162,9 @@ group :development do
   gem "traceroute"
   # a code metric tool for rails codes. (http://rails-bestpractices.com)
   gem "rails_best_practices"
+  # ERB lint tool (https://github.com/Shopify/erb-lint)
   gem 'erb_lint', require: false
+
+  # YAML lint checker
+  gem 'yamllint'
 end
