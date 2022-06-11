@@ -55,10 +55,6 @@ We have two Gemfiles. Both Gemfiles are annotaed with the description of what th
 - The `config/sensibles/Gemfile` contains all the `development` & `test` group Gems.
 
 
-  
-
-
-
 ### Core
 
 - [Rails 7](https://rubyonrails.org/) - Compress the complexity of modern web apps.

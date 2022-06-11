@@ -214,6 +214,9 @@ GEM
     jsbundling-rails (1.0.2)
       railties (>= 6.0.0)
     json (2.6.2)
+    kredis (1.2.0)
+      activesupport (>= 6.0.0)
+      redis (~> 4.2)
     kwalify (0.7.2)
     launchy (2.5.0)
       addressable (~> 2.7)
@@ -286,6 +289,8 @@ GEM
       activesupport (>= 3.0.0)
     racc (1.6.0)
     rack (2.2.3.1)
+    rack-mini-profiler (3.0.0)
+      rack (>= 1.2.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (7.0.3)
@@ -451,7 +456,7 @@ DEPENDENCIES
   annotate_gem
   anyway_config
   appmap
-  avo (~> 2.7)
+  avo
   awesome_print (~> 1.9)
   bootsnap
   brakeman
@@ -468,11 +473,13 @@ DEPENDENCIES
   fuubar
   hotwire-livereload (~> 1.1)
   jsbundling-rails
+  kredis
   letter_opener
   lookbook
   overcommit
   pg (~> 1.1)
   puma (~> 5.0)
+  rack-mini-profiler
   rails (~> 7.0.3)
   rails_best_practices
   rainbow

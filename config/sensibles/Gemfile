@@ -4,11 +4,13 @@
 #
 #  There are three groupings:
 #  - Default Development & Test group
-#  - Development tools & utilities group
 #  - Test group
+#  - Development tools & utilities group
 #  - Static code analysis, security and linting group
 
+##############################
 # Default Development & Test group
+##############################
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
@@ -31,7 +33,9 @@ group :development, :test do
   gem "appmap"
 end
 
-# Test group
+##############################
+# Test Group
+##############################
 group :test do
   # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
   gem "capybara"
@@ -39,31 +43,27 @@ group :test do
   gem "cuprite"
 end
 
+##############################
 # Development tools & utilities group
+##############################
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   # A debugging tool for your Ruby on Rails applications. (https://github.com/rails/web-console)
   gem "web-console"
-
-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
-
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "rack-mini-profiler"
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
-  # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   # Automatically reload Hotwire Turbo when app files are modified. (https://github.com/kirillplatonov/hotwire-livereload)
   gem "hotwire-livereload", "~> 1.1"
-
   # Pretty print Ruby objects with proper indentation and colors (https://github.com/awesome-print/awesome_print)
   gem "awesome_print", "~> 1.9"
-
   # Colorize printed text on ANSI terminals (https://github.com/sickill/rainbow)
   gem "rainbow"
 end
 
-# Static code analysis, security and linting group.
+##############################
+#  Static code analysis, security and linting group.
+##############################
 group :development do
   # Alias for the standard gem, which has a standardrb binary (https://github.com/testdouble/standardrb)
   gem "standardrb"
