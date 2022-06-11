@@ -21,7 +21,6 @@
 --- 
 
 ## Getting Started
-         
 
 - Click the [**_Use this template_**](https://github.com/davidteren/sensible_rails_starter/generate) button to create a
   clone of this repo in your Github account.
@@ -48,7 +47,7 @@ Then run the following to start the application.
 
 ### Read the Gemfiles
 
-We have two Gemfiles. Both Gemfiles are annotaed with the description of what the Gem does and link to the Gem's homepage for further details.
+We have two Gemfiles. Both Gemfiles are annotaed with the description of what's included and links to each Gem's homepage for further details.
 
 - The default `Gemfile` contains all the `production` group Gems.
 
