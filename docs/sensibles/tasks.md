@@ -2,17 +2,26 @@
 
 - [ ] [Utopia](https://utopia.fyi/) - Fluid responsive design
 - [ ] Friendly Id
-- [ ] Interactor
+- [ ] Interactor - @divashenG is doing this
 - [ ] Rails ERD
 - [ ] StandardJS
-- [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails console by environment
 - [ ] CMS like landing, about, contact, T&C's and other pages
 - [ ] Stimulus helpers
 - [ ] [str_enum](https://github.com/ankane/str_enum) - String enums for Rails
 - [ ] [fasterer](https://github.com/DamirSvrtan/fasterer) - ⚡ Don't make your Rubies go fast. Make them go fasterer ™. ⚡
 - [ ] [pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 - [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
-
+- [ ] Add a starter script that moves the readme into `docs/sensibles/` and initializes a new readme in the root for users.
+- [ ] Add a way to test the load performance of all the additional Gems
+- [ ] Impersanation in Auth - for devs to check a users account.
+- [ ] Finish the SimpleCSS like base styling implementation 
+- [ ] Admin Styling page for theme selections and other dymanic style options.
+- [ ] Look into persistent of custom Tailwind config and styles/themes  
+- [ ] Look into export of custom Tailwind config and styles/themes
+- [ ] look into a subdomain solution
+- [ ] OAuth2?
+- [ ] Notion API integration
+- [ ] Payment soluions - International and South African
 ---
 
 ## Ideas
