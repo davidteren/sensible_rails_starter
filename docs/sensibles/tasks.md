@@ -13,7 +13,7 @@
 - [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
 - [ ] Add a starter script that moves the readme into `docs/sensibles/` and initializes a new readme in the root for users.
 - [ ] Add a way to test the load performance of all the additional Gems
-- [ ] Impersanation in Auth - for devs to check a users account.
+- [ ] Impersonation in Auth - for devs to check a users account.
 - [ ] Finish the SimpleCSS like base styling implementation
 - [ ] Admin Styling page for theme selections and other dymanic style options.
 - [ ] Look into persistent of custom Tailwind config and styles/themes
@@ -47,3 +47,4 @@ In-app docs space.
 > Maybe there's a neat lib for this
       
 ---
+ 
