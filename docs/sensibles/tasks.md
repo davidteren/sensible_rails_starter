@@ -1,6 +1,5 @@
 ## TODO
 
-- [ ] [Utopia](https://utopia.fyi/) - Fluid responsive design
 - [ ] Friendly Id
 - [ ] Interactor - @divashenG is doing this
 - [ ] Rails ERD

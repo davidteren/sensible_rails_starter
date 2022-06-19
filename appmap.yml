@@ -1,10 +1,45 @@
 # 'name' should be the same as the code repo name.
-name: my_project
+name: sesible_rails_starter
 packages:
+# Paths
 - path: app/controllers
 - path: app/models
 - path: app/views
 - path: lib
-# Include the gems that you want to see in the dependency maps.
-- gem: devise
-                                               
+# Gems
+#- gem: devise
+#- gem: activerecord
+
+
+
+
+## 'name' should generally be the same as the code repo name.
+#name: my_project
+#packages:
+#- path: app/controllers
+#- path: app/models
+# # Exclude sub-paths within the package path
+#  exclude:
+#  - concerns/accessor
+#- path: app/jobs
+#- path: app/helpers
+## Include the gems that you want to see in the dependency maps.
+## These are just examples.
+#- gem: activerecord
+#- gem: devise
+#- gem: aws-sdk
+#- gem: will_paginate
+## Global exclusion of a class name
+#exclude:
+#- MyClass
+#- MyClass#my_instance_method
+#- MyClass.my_class_method
+## Application of labels
+#functions:
+#- methods:
+#  - Fluent::Logger::FluentLogger#post
+#  - Fluent::Logger::FluentLogger#post_with_time
+#  - Fluent::Logger.post
+#  - Fluent::Logger.post_with_time
+#  gem: fluent-logger
+#  label: log

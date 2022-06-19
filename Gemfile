@@ -1,10 +1,16 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+ruby "3.1.2"
+
+# The appmap gem is the first gem in the file so it ca record other gems
+group :development, :test do
+  gem "appmap"
+end
+
 ##############################
 ### Core
 ##############################
-ruby "3.1.2"
 # Full-stack web application framework. (https://rubyonrails.org)
 gem "rails", "~> 7.0.3"
 # Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
@@ -110,9 +116,6 @@ group :development, :test do
 
   # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
   gem "stackprof", ">= 0.2.9", require: false
-
-  # Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
-  gem "appmap"
 end
 
 ##############################
