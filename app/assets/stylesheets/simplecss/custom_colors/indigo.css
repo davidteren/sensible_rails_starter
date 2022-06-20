@@ -1,0 +1,12 @@
+:root {
+  --bg: theme("colors.indigo.900");
+  --accent-bg: theme("colors.indigo.800");
+  --text: theme("colors.indigo.50");
+  --text-light: theme("colors.indigo.100");
+  --border: theme("colors.indigo.300");
+  --accent: theme("colors.emerald.400");
+  --code: theme("colors.indigo.500");
+  --preformatted: theme("colors.indigo.400");
+  --marked: theme("colors.violet.300");
+  --disabled: theme("colors.indigo.800");
+}

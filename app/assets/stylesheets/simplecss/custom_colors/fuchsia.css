@@ -1,0 +1,12 @@
+:root {
+  --bg: theme("colors.fuchsia.900");
+  --accent-bg: theme("colors.fuchsia.800");
+  --text: theme("colors.fuchsia.50");
+  --text-light: theme("colors.fuchsia.100");
+  --border: theme("colors.fuchsia.300");
+  --accent: theme("colors.green.400");
+  --code: theme("colors.red.500");
+  --preformatted: theme("colors.fuchsia.400");
+  --marked: theme("colors.sky.300");
+  --disabled: theme("colors.fuchsia.800");
+}

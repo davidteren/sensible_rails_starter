@@ -1,0 +1,12 @@
+:root {
+  --bg: theme("colors.gray.900");
+  --accent-bg: theme("colors.gray.800");
+  --text: theme("colors.gray.50");
+  --text-light: theme("colors.gray.100");
+  --border: theme("colors.gray.300");
+  --accent: theme("colors.blue.500");
+  --code: theme("colors.red.500");
+  --preformatted: theme("colors.gray.400");
+  --marked: theme("colors.amber.300");
+  --disabled: theme("colors.gray.800");
+}

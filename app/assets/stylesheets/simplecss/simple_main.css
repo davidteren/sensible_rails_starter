@@ -1,16 +1,3 @@
-:root {
-  --bg: theme("colors.bg");
-  --accent-bg: theme("colors.accent-bg");
-  --text: theme("colors.text");
-  --text-light: theme("colors.text-light");
-  --border: theme("colors.border");
-  --accent: theme("colors.accent");
-  --code: theme("colors.code");
-  --preformatted: theme("colors.preformatted");
-  --marked: theme("colors.marked");
-  --disabled: theme("colors.disabled");
-}
-
 html {
   /* Set the font globally */
   font-family: var(--sans-font);

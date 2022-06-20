@@ -1,0 +1,43 @@
+:root {
+  /* Set sans-serif & mono fonts */
+  --sans-font: "Intervar", -apple-system, BlinkMacSystemFont, "Avenir Next",
+  Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+  "Helvetica Neue", sans-serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+
+  /* Default (light) theme */
+  --bg: theme("colors.lgt.bg", #fff);
+  --accent-bg: theme("colors.lgt.accent-bg", #f5f7ff);
+  --text: theme("colors.lgt.text", #212121);
+  --text-light: theme("colors.lgt.text-light", #585858);
+  --border: theme("colors.lgt.border", #d8dae1);
+  --accent: theme("colors.lgt.accent", #0d47a1);
+  --code: theme("colors.lgt.code", #d81b60);
+  --preformatted: theme("colors.lgt.preformatted", #444);
+  --marked: theme("colors.lgt.preformatted", #ffdd33);
+  --disabled: theme("colors.lgt.disabled", #efefef);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*--bg: theme("colors.drk.bg", #212121);*/
+    --bg: theme("colors.drk.bg", #212121);
+    --accent-bg: theme("colors.drk.accent-bg", #2b2b2b);
+    --text: theme("colors.drk.text", #dcdcdc);
+    --text-light: theme("colors.drk.text-light", #ababab);
+    --border: theme("colors.drk.border", #666);
+    --accent: theme("colors.drk.accent", #ffb300);
+    --code: theme("colors.drk.code", #f06292);
+    --preformatted: theme("colors.drk.preformatted", #ccc);
+    --marked: theme("colors.drk.marked", #ccc);
+    --marked: theme("colors.drk.marked", #ccc);
+    --disabled: theme("colors.drk.disabled", #111);
+  }
+
+  /* Add a bit of transparancy so light media isn't so glaring in dark mode */
+  img,
+  video {
+    opacity: 0.8;
+  }
+}

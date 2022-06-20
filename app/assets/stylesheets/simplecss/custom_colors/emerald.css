@@ -1,0 +1,12 @@
+:root {
+  --bg: theme("colors.emerald.900");
+  --accent-bg: theme("colors.emerald.800");
+  --text: theme("colors.emerald.50");
+  --text-light: theme("colors.emerald.100");
+  --border: theme("colors.emerald.300");
+  --accent: theme("colors.amber.400");
+  --code: theme("colors.emerald.500");
+  --preformatted: theme("colors.emerald.400");
+  --marked: theme("colors.purple.300");
+  --disabled: theme("colors.emerald.800");
+}

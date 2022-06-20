@@ -1,0 +1,12 @@
+:root {
+  --bg: theme("colors.lime.900");
+  --accent-bg: theme("colors.lime.800");
+  --text: theme("colors.lime.50");
+  --text-light: theme("colors.lime.100");
+  --border: theme("colors.lime.300");
+  --accent: theme("colors.stone.400");
+  --code: theme("colors.lime.500");
+  --preformatted: theme("colors.lime.400");
+  --marked: theme("colors.indigo.300");
+  --disabled: theme("colors.lime.800");
+}

@@ -1,0 +1,12 @@
+:root {
+  --bg: theme("colors.pink.900");
+  --accent-bg: theme("colors.pink.800");
+  --text: theme("colors.pink.50");
+  --text-light: theme("colors.pink.100");
+  --border: theme("colors.pink.300");
+  --accent: theme("colors.teal.400");
+  --code: theme("colors.red.500");
+  --preformatted: theme("colors.pink.400");
+  --marked: theme("colors.cyan.300");
+  --disabled: theme("colors.pink.800");
+}
