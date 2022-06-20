@@ -1,6 +1,6 @@
 require "system_helper"
 
-describe "Log in", auth: false do
+describe "Sign up", auth: false do
   it "can sign up" do
     visit root_path
     click_link "Log in"

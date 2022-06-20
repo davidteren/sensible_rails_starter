@@ -1,6 +1,6 @@
 require "system_helper"
 
-describe "Log in" do
+describe "Log out" do
   let(:user) { build(:user) }
 
   it "can logout" do

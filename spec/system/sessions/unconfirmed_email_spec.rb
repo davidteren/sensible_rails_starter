@@ -1,6 +1,6 @@
 require "system_helper"
 
-describe "Log in", auth: false do
+describe "Unconfirmed email", auth: false do
   let(:user) { create(:user, confirmed_at: nil) }
 
   it "expects email to be confirmed" do
