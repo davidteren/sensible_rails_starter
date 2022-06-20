@@ -3,29 +3,29 @@
 /*Usage comment out the one you want to use*/
 
 /*Based on the Simple.css theme.*/
-/*@import "../custom_colors/simplecss";*/
+/*@import "custom_colors/simplecss";*/
 
 /*The following are based on the TailwindCSS default color palates*/
 /*For more: https://tailwindcss.com/docs/customizing-colors*/
 
-/*@import "../custom_colors/amber.css";*/
-/*@import "../custom_colors/blue.css";*/
-@import "custom_colors/cyan.css";
-/*@import "../custom_colors/emerald.css";*/
-/*@import "../custom_colors/fuchsia.css";*/
-/*@import "../custom_colors/gray.css";*/
-/*@import "../custom_colors/green.css";*/
-/*@import "../custom_colors/indigo.css";*/
-/*@import "../custom_colors/lime.css";*/
-/*@import "../custom_colors/neutral.css";*/
-/*@import "../custom_colors/orange.css";*/
-/*@import "../custom_colors/pink.css";*/
-/*@import "../custom_colors/purple.css";*/
-/*@import "../custom_colors/red.css";*/
-/*@import "../custom_colors/rose.css";*/
-/*@import "../custom_colors/sky.css";*/
-/*@import "../custom_colors/slate.css";*/
-/*@import "../custom_colors/stone.css";*/
-/*@import "../custom_colors/violet.css";*/
-/*@import "../custom_colors/yellow.css";*/
-/*@import "../custom_colors/zinc.css";*/
+/*@import "custom_colors/amber.css";*/
+/*@import "custom_colors/blue.css";*/
+/*@import "custom_colors/cyan.css";*/
+/*@import "custom_colors/emerald.css";*/
+/*@import "custom_colors/fuchsia.css";*/
+/*@import "custom_colors/gray.css";*/
+/*@import "custom_colors/green.css";*/
+/*@import "custom_colors/indigo.css";*/
+/*@import "custom_colors/lime.css";*/
+/*@import "custom_colors/neutral.css";*/
+/*@import "custom_colors/orange.css";*/
+/*@import "custom_colors/pink.css";*/
+/*@import "custom_colors/purple.css";*/
+/*@import "custom_colors/red.css";*/
+/*@import "custom_colors/rose.css";*/
+/*@import "custom_colors/sky.css";*/
+@import "custom_colors/slate.css";
+/*@import "custom_colors/stone.css";*/
+/*@import "custom_colors/violet.css";*/
+/*@import "custom_colors/yellow.css";*/
+/*@import "custom_colors/zinc.css";*/
