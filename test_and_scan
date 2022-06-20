@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-set -e
-
-APPMAP=true bundle exec rspec
-yarn run scan --all --ide jetbrains
