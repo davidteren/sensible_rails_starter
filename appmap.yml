@@ -6,6 +6,7 @@ packages:
 - path: app/models
 - path: app/views
 - path: lib
+- path: app/components
 # Gems
 #- gem: devise
 #- gem: activerecord
