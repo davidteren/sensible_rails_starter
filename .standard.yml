@@ -1,0 +1,2 @@
+ignore:
+ - "features/step_definitions/email_steps.rb"

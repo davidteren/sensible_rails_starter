@@ -127,6 +127,26 @@ group :test do
   gem "capybara"
   # Headless Chrome driver for Capybara (https://github.com/rubycdp/cuprite)
   gem "cuprite"
+  # cucumber-rails-2.5.1 (https://cucumber.io)
+  gem "cucumber-rails", require: false
+  # Strategies for cleaning databases. Can be used to ensure a clean slate for testing. (https://github.com/DatabaseCleaner/database_cleaner)
+  gem "database_cleaner"
+  # Automatically create snapshots when Cucumber steps fail with Capybara and Rails (http://github.com/mattheworiordan/capybara-screenshot)
+  gem "capybara-screenshot"
+  # Making tests easy on the fingers and eyes (http://thoughtbot.com/community/)
+  gem "shoulda-matchers", "~> 3.1"
+  # Ruby JSON Schema Validator (http://github.com/voxpupuli/json-schema/)
+  gem "json-schema"
+  # Extracting `assigns` and `assert_template` from ActionDispatch. (https://github.com/rails/rails-controller-testing)
+  gem "rails-controller-testing"
+  # Library for stubbing HTTP requests in Ruby. (http://github.com/bblimke/webmock)
+  gem "webmock"
+  # Easily test email in RSpec, Cucumber or Minitest (http://github.com/email-spec/email-spec/)
+  gem "email_spec"
+  # A gem providing "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code.  It provides a unified method to mock Time.now, Date.today, and DateTime.now in a single call. (https://github.com/travisjeffery/timecop)
+  gem "timecop"
+  # Launchy is helper class for launching cross-platform applications in a fire and forget manner. (http://github.com/copiousfreetime/launchy)
+  gem "launchy"
 end
 
 ##############################
