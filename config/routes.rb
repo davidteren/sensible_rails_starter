@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get "home/index"
   root "home#index"
 
+  # resources :pages, only: [:show]
+
   namespace :app_tools do
     resources :mains, only: [:index]
   end
