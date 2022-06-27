@@ -5,14 +5,14 @@ Given("I click on the sign in button") do
 
   visit root_path
 
-  click_on "Log in"
+  click_on "Sign In"
 end
 
 When("I fill in and submit the sign in form") do
   within id: "new_user" do
     fill_in "Email", with: @user.email
     fill_in "Password", with: @user.password
-    click_on "Log in"
+    click_on "Sign In"
   end
 end
 

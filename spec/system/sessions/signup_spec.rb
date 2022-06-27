@@ -7,11 +7,12 @@ describe "Sign up", auth: false do
     visit root_path
 
     click_link "Sign In"
-
     expect(page).to have_current_path("/users/sign_in")
     expect(page).to have_title("Sign In | #{SensiblesConfig.app_name}")
 
     click_link "Sign up"
+    expect(page).to have_current_path("/users/sign_up")
+    expect(page).to have_title("Sign Up | #{SensiblesConfig.app_name}")
 
     within "new_user" do
       within "email_field" do
@@ -21,7 +22,7 @@ describe "Sign up", auth: false do
       fill_in "Password", with: "pass123"
       fill_in "Password confirmation", with: "pass123"
 
-      click_on "Sign up"
+      click_on "Sign Up"
     end
 
     within "flash_message" do

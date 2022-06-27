@@ -5,7 +5,7 @@ Given("I click on the sign out button") do
 
   login_as(@user)
   visit root_path
-  click_on "Log out"
+  click_on "Sign Out"
 end
 
 Then("I should see a succesfully signed out confirmation message") do

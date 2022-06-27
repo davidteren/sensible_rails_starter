@@ -1,4 +1,4 @@
-Feature: Log out user
+Feature: Sign out user
   As a user
   I want to be able to sign out
   So that no one can use my account

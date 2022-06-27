@@ -5,13 +5,13 @@ describe "Unconfirmed email", auth: false do
 
   it "expects email to be confirmed" do
     visit root_path
-    click_on "Log in"
+    click_on "Sign Ou"
 
-    expect(page).to have_text "Log in"
+    expect(page).to have_text "Sign In"
     within id: "new_user" do
       fill_in "Email", with: user.email
       fill_in "Password", with: user.password
-      click_on "Log in"
+      click_on "Sign In"
     end
 
     expect(page).to have_text "You have to confirm your email address before continuing."

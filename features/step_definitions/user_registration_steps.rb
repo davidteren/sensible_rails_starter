@@ -3,9 +3,9 @@ Given("I am on the homepage") do
 end
 
 Given("I click on the registration link") do
-  click_link "Log in"
+  click_link "Sign In"
 
-  click_link "Sign up"
+  click_link "Sign Up"
 end
 
 When("I fill in and submit the registration form") do
