@@ -1,14 +1,20 @@
+# frozen_string_literal: true
+
 require "system_helper"
 
 describe "Sign up", auth: false do
   it "can sign up" do
     visit root_path
-    click_link "Log in"
+
+    click_link "Sign In"
+
+    expect(page).to have_current_path("/users/sign_in")
+    expect(page).to have_title("Sign In | #{SensiblesConfig.app_name}")
 
     click_link "Sign up"
 
-    within id: "new_user" do
-      within id: "email_field" do
+    within "new_user" do
+      within "email_field" do
         fill_in :user_email, with: "user@example.com"
       end
 
@@ -18,7 +24,7 @@ describe "Sign up", auth: false do
       click_on "Sign up"
     end
 
-    within id: "flash_message" do
+    within "flash_message" do
       expect(page).to have_text(/A message with a confirmation link/)
     end
   end

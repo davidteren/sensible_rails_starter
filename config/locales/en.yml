@@ -30,4 +30,15 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  home:
+    page_title: "Home"
+  sessions:
+    page_title: "Sign In"
+  registrations:
+    page_title: "User Sign Up"
+  passwords:
+    page_title: "Reset Password"
+  unlocks:
+    page_title: "Resend Unlock Mail"
+  confirmations:
+    page_title: "Resend Confirmation Email"

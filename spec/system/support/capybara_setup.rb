@@ -20,6 +20,8 @@ Capybara.default_max_wait_time = 2
 # Normalizes whitespaces when using `has_text?` and similar matchers
 Capybara.default_normalize_ws = true
 
+Capybara.default_selector = :id
+
 # Where to store artifacts (e.g. screenshots, downloaded files, etc.)
 Capybara.save_path = ENV.fetch("CAPYBARA_ARTIFACTS", "./tmp/capybara")
 

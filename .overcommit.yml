@@ -38,8 +38,8 @@ PreCommit:
   command: ['standardrb', '--fix']
 
  ErbLint:
-  enabled: true
-  command: ['bundle','exec', 'erblint', '**/*.{html,text,js}{+*,}.erb', '-a']
+  enabled: false
+  command: ['bundle', 'exec', 'erblint', '-a']
 
   StandardJS:
    enabled: true

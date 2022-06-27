@@ -1,2 +1,14 @@
 ---
 glob: "**/*.{html,text,js}{+*,}.erb"
+exclude:
+- "**/app/components/**/*"
+- "**/app/views/styles/**/*"
+- "app/views/layouts/_head.html.erb"
+- "app/views/app_tools/styles/index.html.erb"
+- "app/views/app_tools/styles/tailwindcss.html.erb"
+linters:
+ HardCodedString:
+  enabled: false
+  exclude:
+  - "app/views/**/*"
+
