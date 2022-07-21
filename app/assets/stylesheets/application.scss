@@ -24,3 +24,24 @@
     }
   }
 }
+
+
+
+nav button,
+nav button:visited {
+  background-color: var(--accent-bg)!important;
+  margin: 0 1rem 0 0;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text);
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  text-decoration: none;
+}
+
+nav button:hover {
+  background-color: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+

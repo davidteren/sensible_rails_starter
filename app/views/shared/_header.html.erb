@@ -5,11 +5,14 @@
     <%# next unless page.visible %>
     <%#= link_to page.title, page_path(page) %>
     <%# end %>
+    <div class="flex justify-center items-end">
     <%= link_to 'Tools', tools_path %>
     <% if user_signed_in? %>
+
       <%= button_to "Sign Out", destroy_user_session_path, method: :delete %>
     <% else %>
       <%= link_to "Sign In", new_user_session_path %>
     <% end %>
+    </div>
   </nav>
 </header>
