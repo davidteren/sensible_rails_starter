@@ -41,7 +41,7 @@ Then run the following to start the application.
 
 ## What's in the box
 
-> _"Good frameworks are extracted, not invented"_ - DHH
+> _"Good frameworks are extracted, not invented"_ - David Heinemeier Hansson
 
 ### Read the Gemfiles
 
@@ -59,4 +59,5 @@ Contributions welcome 🤗
 > Any contribution that aligns with the vision of the SensibleRails Starter Template is welcome.
 >
 > **Note** that some implementations will remain trunk-based, so users have the option of including them or not.
+
 ---
