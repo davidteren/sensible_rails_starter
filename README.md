@@ -1,10 +1,18 @@
-# SensibleRails - _An Opininated Rails 7 Starter Template_
 
-![rails image](docs/images/rails-imageb.PNG)
 
-#### 🚀 Focus on building stuff and not on the getting started part. 🚀
+<details open="">
+  <summary></summary>
 
----
+<div align="center" dir="auto" style="font-weight: lighter">
+  <h1><i>S</i>ensible<i>R</i>ails</h1>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 100%;"></a>
+
+  <h3>🚀 Focus on building stuff and not on the getting started part. 🚀</h3>  
+</div>
+</details>
+   
+
 
 > ![rspec](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/rspec)
 ![simplecov](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/simplecov)
@@ -40,9 +48,10 @@ Then run the following to start the application.
  ---
 
 ### Using overcommit
-          
+
 [overcommit](https://github.com/sds/overcommit) a fully configurable and extendable Git hook manager is included.
- When enabled the hooks will run each time a git commit is made. If any of the checks fail the commit will be ignored and the erros will be shown. 
+When enabled the hooks will run each time a git commit is made. If any of the checks fail the commit will be ignored and
+the erros will be shown.
 
 Enable overcommit
 
@@ -51,14 +60,15 @@ Enable overcommit
 ````
 
 Run overcommit
+
 ```bash
  overcommit --run
 ````
- 
+
 You should see the following
 ![](docs/images/overcommit-run.png)
 
-The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.yml) 
+The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.yml)
 
 ---
 
@@ -87,7 +97,7 @@ Contributions welcome 🤗
 
 
 <details open="">
-  <summary><h2 align="center" dir="auto"><strong>╵𒄉〢・ᴍʏ sᴛᴀᴛS! <g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji></strong></h2></summary>
+  <summary><h2><strong>fs</strong></h2></summary>
 <hr>
 <p align="center" dir="auto">
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5fc84f8a06df1b2c920658674683bf48f734b5dd983737a5d1956b146611eadf/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4c6567656e646172792d506572736f6e26636f756e745f707269766174653d7472756526696e636c7564655f616c6c5f636f6d6d6974733d74727565267468656d653d7368616465732d6f662d707572706c6526686964655f626f726465723d66616c7365"><img height="180px" width="480px" alt="Commit Stats" src="https://camo.githubusercontent.com/5fc84f8a06df1b2c920658674683bf48f734b5dd983737a5d1956b146611eadf/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4c6567656e646172792d506572736f6e26636f756e745f707269766174653d7472756526696e636c7564655f616c6c5f636f6d6d6974733d74727565267468656d653d7368616465732d6f662d707572706c6526686964655f626f726465723d66616c7365" data-canonical-src="https://github-readme-stats.vercel.app/api?username=Legendary-Person&amp;count_private=true&amp;include_all_commits=true&amp;theme=shades-of-purple&amp;hide_border=false" style="max-width: 100%;"></a>
