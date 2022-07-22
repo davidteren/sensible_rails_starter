@@ -72,7 +72,7 @@ The Gemfile is annotated with the description and links to each Gem's homepage f
 
 ## Alternatives
 
-[See a list of alternative Rails 7 templates here](sensibles/alternatives.md)
+[See a list of alternative Rails 7 templates here](docs/sensibles/alternatives.md)
 
 ## Contributions
 
