@@ -12,7 +12,7 @@
 </details>
 
 <details open="">
-  <summary></summary>
+  <summary><h2 align="center" dir="auto">Builds</h2></summary>
 
 <div align="center" dir="auto">
 
@@ -31,6 +31,14 @@
 </details>
 
 --- 
+TOC:
+
+[Getting started](#getting-started)
+
+[Alternatives](#alternatives)
+
+
+---
 
 ## Getting Started
 
