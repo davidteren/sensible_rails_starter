@@ -8,7 +8,8 @@
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 100%;"></a>
 
-  <h3>🚀 Focus on building stuff and not on the getting started part. 🚀</h3>  
+  <h3>🚀 Focus on building stuff and not setup. 🚀</h3>
+<hr>
 </div>
 </details>
    
