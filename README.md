@@ -1,28 +1,34 @@
 <details open="">
   <summary></summary>
 
-<div align="center" dir="auto" style="font-weight: lighter;">
+<div align="center" dir="auto">
   <h1>SensibleRails</h1>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 100%;"></a>
 
-<h3>🚀 Focus on building stuff and not setup. 🚀</h3>
+<h3>🚀 Focus on building stuff and not the setup. 🚀</h3>
+<br>
 <hr>
 </div>
 </details>
 
+<details open="">
+  <summary></summary>
 
+<div align="center" dir="auto">
 
+>  [![img.png](docs/images/rubyci.png)](https://ruby.ci/)
+>
+> _We highly recommend [RubyCI](https://ruby.ci/) for builds_
+> 
 > ![rspec](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/rspec)
-![simplecov](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/simplecov)
-![ruby_critic](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/ruby_critic)
+> ![simplecov](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/simplecov)
+> ![ruby_critic](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/ruby_critic)
 ![reek](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/reek)
 ![brakeman](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/brakeman)
 ![bundler_audit](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/bundler_audit)
 ![standard](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/standard)
->
->  [![img.png](docs/images/rubyci.png)](https://ruby.ci/)
->
-> _We highly recommend [RubyCI](https://ruby.ci/) for builds_
+
+</details>
 
 --- 
 
