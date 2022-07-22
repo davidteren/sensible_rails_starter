@@ -3,9 +3,9 @@
 
 <div align="center" dir="auto">
   <h1>SensibleRails</h1>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 50%;"></a>
 
-<h3>🚀 Focus on building stuff and not the setup. 🚀</h3>
+<p>🚀 Focus on building stuff and not the setup. 🚀</p>
 <br>
 <hr>
 </div>
@@ -81,15 +81,18 @@ The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.ym
 > _"Good frameworks are extracted, not invented"_ - David Heinemeier Hansson
 
 The Gemfile is annotated with the description and links to each Gem's homepage for further details.
+  
+---
 
 ## Alternatives
 
 [See a list of alternative Rails 7 templates here](docs/sensibles/alternatives.md)
 
+---
+
 ## Contributions
 
 Contributions welcome 🤗
-
 
 > Any contribution that aligns with the vision of the SensibleRails Starter Template is welcome.
 >
