@@ -87,7 +87,8 @@ Contributions welcome 🤗
            
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="github-markdown.css">
+
+[//]: # (<link rel="stylesheet" href="github-markdown.css">)
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 <style>
 	.markdown-body {
@@ -108,3 +109,15 @@ Contributions welcome 🤗
 	<h1>Unicorns</h1>
 	<p>All the things</p>
 </article>
+
+<style>
+.green {
+    color: green;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
+
+<div class="green">
+    Markdown css styles
+</div>
