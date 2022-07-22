@@ -84,40 +84,13 @@ Contributions welcome 🤗
 > **Note** that some implementations will remain trunk-based, so users have the option of including them or not.
 
 ---
-           
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-[//]: # (<link rel="stylesheet" href="github-markdown.css">)
-<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-<style>
-	.markdown-body {
-		box-sizing: border-box;
-		min-width: 200px;
-		max-width: 980px;
-		margin: 0 auto;
-		padding: 45px;
-	}
-
-	@media (max-width: 767px) {
-		.markdown-body {
-			padding: 15px;
-		}
-	}
-</style>
-<article class="markdown-body">
-	<h1>Unicorns</h1>
-	<p>All the things</p>
-</article>
-
-<style>
-.green {
-    color: green;
-    font-weight:700;
-    font-size: 30px;
-}
-</style>
-
-<div class="green">
-    Markdown css styles
-</div>
+<details open="">
+  <summary><h2 align="center" dir="auto"><strong>╵𒄉〢・ᴍʏ sᴛᴀᴛS! <g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji></strong></h2></summary>
+<hr>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5fc84f8a06df1b2c920658674683bf48f734b5dd983737a5d1956b146611eadf/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4c6567656e646172792d506572736f6e26636f756e745f707269766174653d7472756526696e636c7564655f616c6c5f636f6d6d6974733d74727565267468656d653d7368616465732d6f662d707572706c6526686964655f626f726465723d66616c7365"><img height="180px" width="480px" alt="Commit Stats" src="https://camo.githubusercontent.com/5fc84f8a06df1b2c920658674683bf48f734b5dd983737a5d1956b146611eadf/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4c6567656e646172792d506572736f6e26636f756e745f707269766174653d7472756526696e636c7564655f616c6c5f636f6d6d6974733d74727565267468656d653d7368616465732d6f662d707572706c6526686964655f626f726465723d66616c7365" data-canonical-src="https://github-readme-stats.vercel.app/api?username=Legendary-Person&amp;count_private=true&amp;include_all_commits=true&amp;theme=shades-of-purple&amp;hide_border=false" style="max-width: 100%;"></a>
+</p>
+<hr>
+</details>
