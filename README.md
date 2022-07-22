@@ -1,17 +1,21 @@
 
 
 
+<head>
+  <style>
+ h1 {
+  font-weight: lighter;
+}
+</style>
+
+</head>
 
 
 
 <details open="">
   <summary></summary>
 
-<style>
- h1 {
-  font-weight: lighter;
-}
-</style>
+
 <div align="center" dir="auto" style="font-weight: lighter;">
   <h1><i>S</i>ensible<i>R</i>ails</h1>
 
