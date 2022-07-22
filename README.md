@@ -37,6 +37,29 @@ Then run the following to start the application.
 ./bin/dev
 ```
 
+ ---
+
+### Using overcommit
+          
+[overcommit](https://github.com/sds/overcommit) a fully configurable and extendable Git hook manager is included.
+ When enabled the hooks will run each time a git commit is made. If any of the checks fail the commit will be ignored and the erros will be shown. 
+
+Enable overcommit
+
+```bash
+ overcommit --sign && overcommit --sign pre-commit
+````
+
+Run overcommit
+```bash
+ overcommit --run
+````
+ 
+You should see the following
+![](docs/images/overcommit-run.png)
+
+The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.yml) 
+
 ---
 
 ## What's in the box
