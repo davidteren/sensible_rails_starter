@@ -1,14 +1,5 @@
 
 
-<style>
-
- h1 {
-font-weight: lighter;
-}
-
-
-</style>
-
 
 
 
@@ -16,16 +7,21 @@ font-weight: lighter;
 <details open="">
   <summary></summary>
 
+<style>
+ h1 {
+  font-weight: lighter;
+}
+</style>
 <div align="center" dir="auto" style="font-weight: lighter">
   <h1><i>S</i>ensible<i>R</i>ails</h1>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/davidteren/sensible_rails_starter"><img  width="480px" alt="Commit Stats" src="https://raw.githubusercontent.com/davidteren/sensible_rails_starter/48bd5aa6633b2c25ef1d2144d923d1072ac6cbeb/docs/images/rails-imageb.PNG" style="max-width: 100%;"></a>
 
-  <h3>🚀 Focus on building stuff and not setup. 🚀</h3>
+<h3>🚀 Focus on building stuff and not setup. 🚀</h3>
 <hr>
 </div>
 </details>
-   
+
 
 
 > ![rspec](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/rspec)
