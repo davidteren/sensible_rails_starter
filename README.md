@@ -31,14 +31,24 @@
 </details>
 
 --- 
-TOC:
 
-[Getting started](#getting-started)
-
-[Alternatives](#alternatives)
+<details open="">
+  <summary><h2>TOC</h2></summary>
 
 
----
+<ol>
+<li><a href="#builds">Builds</a></li>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#using-overcommit">Using Overcommit</a></li>
+<li><a href="#whats-in-the-box">What's in the box</a></li>
+<li><a href="#alternatives">Alternatives</a></li>
+<li><a href="#contributions">Contributions</a></li>
+</ol>
+
+<hr>
+
+</details>
+
 
 ## Getting Started
 
@@ -102,8 +112,6 @@ The Gemfile is annotated with the description and links to each Gem's homepage f
 
 Contributions welcome 🤗
 
-> Any contribution that aligns with the vision of the SensibleRails Starter Template is welcome.
->
-> **Note** that some implementations will remain trunk-based, so users have the option of including them or not.
+> Contributions aligning with the project vision are welcome.
 
 ---
