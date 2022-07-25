@@ -21,6 +21,7 @@
 - [ ] OAuth2?
 - [ ] Notion API integration
 - [ ] Payment solutions - International and South African
+- [ ] User dashboard with devise details (sign in count, ip addresses...)
 ---
 
 ## Ideas
